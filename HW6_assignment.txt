@@ -1,0 +1,37 @@
+HW6_assignment
+
+Work with Saccharomyces_cerevisiae.R64-1-1.34.gff3 file.
+Write a script that would select information
+about CDS features for user-specified chromosome
+and present data as tab-delimited file with 6 columns. 
+
+Here is an example of the output(partial) for chromosome II:
+
+Chromosome	Start	Stop	Length	CDSID	ProteinID
+II	280	2658	2379	YBL113C	YBL113C
+II	646	1128	483	YBL113W-A	YBL113W-A
+II	2582	2899	318	YBL112C	YBL112C
+II	2907	4116	1210	YBL111C	YBL111C
+II	4216	5009	794	YBL111C	YBL111C
+II	5790	6125	336	YBL109W	YBL109W
+II	7605	7733	129	YBL108C-A	YBL108C-A
+II	8177	8482	306	YBL108W	YBL108W
+II	9268	9372	105	YBL107W-A	YBL107W-A
+...
+...
+...
+
+Further instructions:
+1. Call your script Gff3ToNew_YourFirstName_YourLastName.sh
+2. You should supply 3 arguments to your script at the command line.
+The three arguments are: input, chromosome, output.
+3. Use whatever commands you want(within the scope of this corse)
+to accomplish the task, but practicing AWK here is highly recommended.
+4. Make MyHW6 folder in your CTools_Spring2017 folder.
+Assume I have Saccharomyces_cerevisiae.R64-1-1.34.gff3 there.
+Your script should run from MyHW6.
+5. You can check for tabs in your final output with `cat -T` command.
+Tabs will be indicated by `^I` symbol.
+5. Provide an example of how to run your script in the comment section
+on BlackBoard when you submit your file.
+6. ASK me if these instructions are not clear.
